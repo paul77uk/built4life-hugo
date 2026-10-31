@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Friday 16th October 2026.md",
+                "file": "posts/Friday 16th October 2026.md",
                 "mode": "source",
                 "source": false
               },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Friday 16th October 2026.md",
+                "file": "posts/Friday 16th October 2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Friday 16th October 2026.md",
+                "file": "posts/Friday 16th October 2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Friday 16th October 2026.md",
+                "file": "posts/Friday 16th October 2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,6 +191,8 @@
   },
   "active": "557e1b8311fc1c17",
   "lastOpenFiles": [
-    "Friday 16th October 2026.md"
+    "Friday 16th October 2026.md",
+    "posts/Friday 16th October 2026.md",
+    "posts"
   ]
 }

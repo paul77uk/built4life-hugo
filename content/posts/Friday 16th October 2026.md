@@ -28,6 +28,8 @@ draft: false
 
 {{< youtube saCo7jCH7oU >}}
 
+{{< youtube-lite "YOUR_VIDEO_ID" >}}
+
 ---
 
 📺 **50kg Sandbag Bearhug Box Squat x 9**

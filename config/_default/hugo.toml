@@ -18,6 +18,12 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[privacy]
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true
+
+
 [pagination]
   pagerSize = 100
 

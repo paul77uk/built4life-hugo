@@ -6,11 +6,12 @@ draft: false
 
 **📊 1. Sandbag Bearhug Box Squats**
 
-**[PR] 50kg x 9**  
-
-{{< alert card="true" icon="fire"  cardColor="#e63946" iconColor="#f1faee" textColor="#f1faee" >}}
-**[PR] 50kg x 9**  
+{{< alert icon=" " cardColor="#064e3b" iconColor="#10b981" textColor="#a7f3d0" >}} 
+**🏅 PR**  
+50kg x 9  
+ 70kg x 6
 {{< /alert >}}
+
 
 > `[WU]` 50kg x 4  
 > `[WU]` 70kg x 4  
@@ -61,8 +62,8 @@ draft: false
 > [!TIP]
 > A Tip type admonition.
 
-> [!NOTE]
-> A Tip type admonition.
+> [!NOTE]PR
+> 🏅 PR 50kg x 12
 
 > [!ALERT]
 > A Tip type admonition.
@@ -77,17 +78,21 @@ draft: false
 > A collapsible admonition with custom title.
 {icon="twitter"}
 
-{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+{{< alert icon=" " cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
  **50kg x 9**  
  **65 x 6**
 {{< /alert >}}  
  
 <br>
 
-{{< alert icon="lightbulb" cardColor="#064e3b" iconColor="#10b981" textColor="#a7f3d0" >}} **Form Cue:** Pack your shoulder blades tightly back and down before pulling. {{< /alert >}}
+{{< alert icon=" " cardColor="#064e3b" iconColor="#10b981" textColor="#a7f3d0" >}} 
+**🏅PR**  
+**SET 1** 50kg x 12  
+**SET 2** 65kg x 6
+{{< /alert >}}
 
-> [!WARNING] PR
+> [!WARNING] 🏅PR
 > **50kg x 9**  
 > **65 x 6**
-{icon="fire"}
+{icon="circle"}
 

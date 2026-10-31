@@ -12,7 +12,8 @@ draft: false
 > `[SET 2]` 70kg x 6  
 > `[SET 3]` 50kg x 9
 
-_Went without box/ bag on last squat and may just do normal bearhug squats in future instead of box squats, think they are better for keeping time under tension._
+> [!NOTE]
+> _Went without box/ bag on last squat and may just do normal bearhug squats in future instead of box squats, think they are better for keeping time under tension._
 
 ---
 

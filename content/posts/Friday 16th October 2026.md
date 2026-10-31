@@ -28,7 +28,7 @@ draft: false
 
 {{< youtube saCo7jCH7oU >}}
 
-{{< youtube-lite "YOUR_VIDEO_ID" >}}
+{{< youtube-lite "saCo7jCH7oU" >}}
 
 ---
 

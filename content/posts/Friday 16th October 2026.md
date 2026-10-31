@@ -18,7 +18,7 @@ _Went without box/ bag on last squat and may just do normal bearhug squats in fu
 
 📺 **70kg Sandbag Bearhug Box Squat x 6**
 
-{{< youtube dQw4w9WgXcQ >}}
+{{< youtube saCo7jCH7oU >}}
 
 ---
 

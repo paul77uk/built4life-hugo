@@ -71,7 +71,7 @@ section .grid {
 /* 2. Make the cards more square by restricting width and letting height balance out */
 section .grid > div {
   width: 100% !important;
-  max-width: 500px !important;    /* 👈 Shrinks width to pull the layout into a square format */
+  max-width: 400px !important;    /* 👈 Shrinks width to pull the layout into a square format */
 }
 
 /* 3. Style the card body container */
@@ -95,39 +95,10 @@ section .grid article .flex-none {
   visibility: visible !important;
 }
 
-/* 5. Precision layout focus for your training photo */
-section .grid article img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;    /* Fills the box space cleanly */
-  object-position: center 25% !important; /* 👈 Sits higher up on the image to keep your frame centered */
+/* put slight gap between header and date */
+header {
+  margin-top: 1rem !important;
+  margin-bottom: 0.25rem !important;
 }
 
-/* 6. Padding adjustments for your workout text underneath */
-section .grid article .p-6,
-section .grid article div:nth-child(2) {
-  padding: 1.5rem !important;
-}
-
-/* 7. Punchy, clean typography for the workout log headers */
-section .grid article h3 {
-  font-size: 1.5rem !important;
-  font-weight: 800 !important;
-  line-height: 1.25 !important;
-  margin-bottom: 0.5rem !important;
-}
-
-/* 1. Target ONLY the explicit "Recent" header element, leaving card titles completely alone */
-main section h2.text-2xl.font-bold {
-  display: none !important;
-}
-
-/* Ensure the layout lets the actual card post title links render fully */
-section article h3,
-.home main article h3,
-section article h3 a,
-.home main article h3 a {
-  display: block !important;
-  visibility: visible !important;
-}
 

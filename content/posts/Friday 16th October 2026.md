@@ -28,6 +28,19 @@ draft: false
 
 {{< youtube saCo7jCH7oU >}}
 
+<div class="video-container" style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 400px; margin: 0 auto; background: #000; border-radius: 12px;">
+  <!-- The Static Thumbnail Cover -->
+  <div id="cover-saCo7jCH7oU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: url('https://youtube.com') center/cover no-repeat; cursor: pointer;" onclick="document.getElementById('player-saCo7jCH7oU').src='https://youtube-nocookie.com'; saCo7jCH7oU
+    <!-- SVG Play Button Overlay -->
+    <svg xmlns="http://w3.org" viewBox="0 0 24 24" fill="#ff0000" width="68px" height="68px" style="filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.5));">
+      <path d="M8 5v14l11-7z"/>
+    </svg>
+  </div>
+  <!-- The Hidden Embedded Video Iframe (Plays inline when clicked) -->
+  <iframe id="player-saCo7jCH7oU" class="absolute top-0 left-0 w-full h-full" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
+</div>
+
+
 ---
 
 📺 **50kg Sandbag Bearhug Box Squat x 9**

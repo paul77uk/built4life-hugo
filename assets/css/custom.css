@@ -31,14 +31,15 @@
 .main-menu.navbar,
 header nav,
 .flex.items-center.text-xl.font-bold,
-a[href="/"] {
+a[href='/'] {
   font-size: 1.55rem !important; /* Kept it nice and big */
-  font-weight: 900 !important;   /* Forces the thickest available font weight */
+  font-weight: 900 !important; /* Forces the thickest available font weight */
   text-transform: uppercase !important;
 
-
   /* Artificially thickens the lettering outline for an intense athletic look */
-  text-shadow: 0.5px 0px 0px currentColor, -0.5px 0px 0px currentColor; 
+  text-shadow:
+    0.5px 0px 0px currentColor,
+    -0.5px 0px 0px currentColor;
 }
 
 /* 2. Color the "4" in the middle */
@@ -46,8 +47,72 @@ a[href="/"] {
   color: #ef4444 !important; /* Athletic red */
   /* If you prefer the native Blowfish Blue instead, use: #3b82f6 */
   /* If you prefer your gym log Green instead, use: #10b981 */
-  
+
   font-weight: 900 !important;
   padding: 0 1px; /* Subtle spacing adjustment around the number */
 }
 
+/* 3. Force all images to be 100% width and height */
+section .grid article,
+section .grid article img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important; /* Shows 100% of the image without any cropping */
+}
+
+/* 1. Center the cards on the homepage in a clean, vertical track */
+section .grid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important; /* Centers the cards horizontally */
+  gap: 2.5rem !important;          /* Spacious gaps between training log cards */
+}
+
+/* 2. Make the cards more square by restricting width and letting height balance out */
+section .grid > div {
+  width: 100% !important;
+  max-width: 500px !important;    /* 👈 Shrinks width to pull the layout into a square format */
+}
+
+/* 3. Style the card body container */
+section .grid article {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(0,0,0,0.08) !important; /* Crisp framing border */
+  border-radius: 0.75rem !important;
+}
+
+/* 4. Increase image height to perfectly balance portrait dimensions */
+section .grid article .w-full,
+section .grid article .thumbnail,
+section .grid article .flex-none {
+  width: 100% !important;
+  height: 420px !important;        /* 👈 Taller height handles portrait photos beautifully */
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* 5. Precision layout focus for your training photo */
+section .grid article img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;    /* Fills the box space cleanly */
+  object-position: center 25% !important; /* 👈 Sits higher up on the image to keep your frame centered */
+}
+
+/* 6. Padding adjustments for your workout text underneath */
+section .grid article .p-6,
+section .grid article div:nth-child(2) {
+  padding: 1.5rem !important;
+}
+
+/* 7. Punchy, clean typography for the workout log headers */
+section .grid article h3 {
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.5rem !important;
+}

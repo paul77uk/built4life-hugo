@@ -6,21 +6,19 @@ summary: "Sandbag training log tracking box squats, floor presses, and shoulderi
 ---
 
 ## 📊 1. Sandbag Bearhug Box Squats
-<div style="margin-top: -1rem; margin-bottom: 1rem;">
-  <div style="color: #10b981; font-weight: bold; margin-right: 1rem;">🏅 PR: 50kg x 9</div>
-  <div style="color: #10b981; font-weight: bold;">🏅 PR: Freestanding 70kg x 5</div>
+
+<div class="pr">
+  <div>🏅 PR: 50kg x 7</div>
+  <div>🏅 PR: 70kg x 2</div>
 </div>
 
-<span style="color: #10b981;">**🏅 PR: 50kg x 7**</span>
-<span style="color: #10b981;">**🏅 PR: 50kg x 8**</span>
-
-
+`🏅 PR: 50kg x 7`
 
 `[WU]` 50kg x 4  
  `[WU]` 70kg x 4  
-   `[SET 1]` 85kg x 2  
-  `[SET 2]` 70kg x 6  
-  `[SET 3]` 50kg x 9
+ `[SET 1]` 85kg x 2  
+ `[SET 2]` 70kg x 6  
+ `[SET 3]` 50kg x 9
 
 <div style="background-color: #111827; border-left: 4px solid #10b981; padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; max-width: 100%;">
   <p style="margin: 0; font-size: 0.95rem; color: #9ca3af; font-style: italic;">
@@ -47,14 +45,15 @@ summary: "Sandbag training log tracking box squats, floor presses, and shoulderi
 ---
 
 ## 📊 2. Sandbag Floor Press
+
 <div style="margin-top: -1rem; margin-bottom: 1rem;">
   <span style="color: #10b981; font-weight: bold;">🏅 PR: 70kg x 9</span>
 </div>
 
-*   `[SET 1]` 50kg x 13
-*   `[SET 2]` 70kg x 6
-*   `[SET 3]` 70kg x 9
-*   `[SET 4]` 70kg x 6
+- `[SET 1]` 50kg x 13
+- `[SET 2]` 70kg x 6
+- `[SET 3]` 70kg x 9
+- `[SET 4]` 70kg x 6
 
 <div style="background-color: #111827; border-left: 4px solid #3b82f6; padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; max-width: 100%;">
   <p style="margin: 0; font-size: 0.95rem; color: #9ca3af; font-style: italic;">
@@ -66,9 +65,9 @@ summary: "Sandbag training log tracking box squats, floor presses, and shoulderi
 
 ## 📊 3. Sandbag-to-Shoulder
 
-*   `[SET 1]` 50kg x 7
-*   `[SET 2]` 70kg x 2
-*   `[SET 3]` 50kg x 8
+- `[SET 1]` 50kg x 7
+- `[SET 2]` 70kg x 2
+- `[SET 3]` 50kg x 8
 
 <div style="clear: both; margin: 1.5rem 0; max-width: 100%;">
   <p style="font-weight: bold; margin-bottom: 0.5rem; font-size: 0.95rem;">📺 50kg Sandbag-to-Shoulder x 8</p>
@@ -76,3 +75,10 @@ summary: "Sandbag training log tracking box squats, floor presses, and shoulderi
     <iframe src="https://youtube.com" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+
+<style>
+  .pr {
+    color: #10b981;
+    font-weight: bold;
+  }
+</style>

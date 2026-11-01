@@ -21,3 +21,13 @@
   font-weight: bold;         /* Makes the title bold */
   color: #d9e2df;            /* Change the color to match your theme */
 }
+
+
+
+/* Reduce the default aggressive top-margin on your very first H2 header */
+.max-w-prose h2:first-of-type {
+  margin-top: -1.5rem !important; /* Pulls the first section header up closer */
+}
+
+
+

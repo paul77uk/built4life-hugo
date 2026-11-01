@@ -60,37 +60,12 @@ section .grid article img {
   object-fit: contain !important; /* Shows 100% of the image without any cropping */
 }
 
-/* 1. Center the cards on the homepage in a clean, vertical track */
-section .grid {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important; /* Centers the cards horizontally */
-  gap: 2.5rem !important;          /* Spacious gaps between training log cards */
-}
-
-/* 2. Make the cards more square by restricting width and letting height balance out */
-section .grid > div {
-  width: 100% !important;
-  max-width: 400px !important;    /* 👈 Shrinks width to pull the layout into a square format */
-}
-
-/* 3. Style the card body container */
-section .grid article {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: stretch !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  border: 1px solid rgba(0,0,0,0.08) !important; /* Crisp framing border */
-  border-radius: 0.75rem !important;
-}
-
 /* 4. Increase image height to perfectly balance portrait dimensions */
 section .grid article .w-full,
 section .grid article .thumbnail,
 section .grid article .flex-none {
   width: 100% !important;
-  height: 420px !important;        /* 👈 Taller height handles portrait photos beautifully */
+  height: 420px !important; /* 👈 Taller height handles portrait photos beautifully */
   display: block !important;
   visibility: visible !important;
 }
@@ -101,4 +76,25 @@ header {
   margin-bottom: 0.25rem !important;
 }
 
+/* 1. Center the actual card track container on the homepage */
+main section .grid,
+main .grid {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important; /* Centers the narrow card track on the viewport */
+  justify-content: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 3. Center internal structural text headers and date rows */
+section .grid article header,
+section .grid article h3,
+section .grid article .text-sm,
+section .grid article div {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
 

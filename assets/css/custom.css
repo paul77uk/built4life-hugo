@@ -16,18 +16,38 @@
 }
 
 .note::before {
-  content: "❕NOTE";          /* Write your fixed title here */
-  display: block;            /* Forces a newline immediately after the title */
-  font-weight: bold;         /* Makes the title bold */
-  color: #d9e2df;            /* Change the color to match your theme */
+  content: '❕NOTE'; /* Write your fixed title here */
+  display: block; /* Forces a newline immediately after the title */
+  font-weight: bold; /* Makes the title bold */
+  color: #d9e2df; /* Change the color to match your theme */
 }
-
-
 
 /* Reduce the default aggressive top-margin on your very first H2 header */
 .max-w-prose h2:first-of-type {
   margin-top: -1.5rem !important; /* Pulls the first section header up closer */
 }
 
+/* 1. Make the overall brand logo header massive and ultra-thick */
+.main-menu.navbar,
+header nav,
+.flex.items-center.text-xl.font-bold,
+a[href="/"] {
+  font-size: 1.55rem !important; /* Kept it nice and big */
+  font-weight: 900 !important;   /* Forces the thickest available font weight */
+  text-transform: uppercase !important;
 
+
+  /* Artificially thickens the lettering outline for an intense athletic look */
+  text-shadow: 0.5px 0px 0px currentColor, -0.5px 0px 0px currentColor; 
+}
+
+/* 2. Color the "4" in the middle */
+.logo-accent {
+  color: #ef4444 !important; /* Athletic red */
+  /* If you prefer the native Blowfish Blue instead, use: #3b82f6 */
+  /* If you prefer your gym log Green instead, use: #10b981 */
+  
+  font-weight: 900 !important;
+  padding: 0 1px; /* Subtle spacing adjustment around the number */
+}
 

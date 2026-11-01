@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Friday 16th October 2026.md",
+                "file": "posts/new note experimentnew note experiment.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Friday 16th October 2026"
+              "title": "new note experimentnew note experiment"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Friday 16th October 2026.md",
+                "file": "posts/new note experimentnew note experiment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Friday 16th October 2026.md",
+                "file": "posts/new note experimentnew note experiment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Friday 16th October 2026.md",
+                "file": "posts/new note experimentnew note experiment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,8 +191,8 @@
   },
   "active": "557e1b8311fc1c17",
   "lastOpenFiles": [
-    "posts/new note experiment.md",
     "posts/Friday 16th October 2026.md",
+    "posts/new note experimentnew note experiment.md",
     "posts/new post.md",
     "Friday 16th October 2026.md",
     "posts"

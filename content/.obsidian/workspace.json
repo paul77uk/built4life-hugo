@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "970ef3b0d6c1d932",
+        "id": "ededd760fca24f18",
         "type": "tabs",
         "children": [
           {
-            "id": "4d348369c5724628",
+            "id": "fe4f5d9648711bbb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/friday-16th-october-2026/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -189,11 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a6772416362f94b",
+  "active": "fe4f5d9648711bbb",
   "lastOpenFiles": [
+    "posts/saturday-17th-october-2026/featured.png",
+    "posts/saturday-17th-october-2026/index.md",
+    "posts/friday-16th-october-2026/index.md",
     "posts/friday-16th-october-2026/featured.png",
-    "posts/friday-16th-october-2026/index.md",
-    "posts/friday-16th-october-2026/index.md",
+    "posts/saturday-17th-october-2026",
     "posts/new-note/new note experiment.md",
     "posts/new note experiment.md",
     "posts/friday-16th-october-2026",

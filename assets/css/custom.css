@@ -70,31 +70,37 @@ section .grid article .flex-none {
   visibility: visible !important;
 }
 
-/* put slight gap between header and date */
-header {
-  margin-top: 1rem !important;
-  margin-bottom: 0.25rem !important;
+/* --- CLEAN SLATE: Reset and Force a 2-Column Grid Layout --- */
+@media (min-width: 768px) {
+  .home main .grid,
+  section .grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important; /* Forces 2 columns side-by-side */
+    width: 100% !important;
+    max-width: 840px !important;    /* Controls how wide the total 2-card area stretches */
+    margin: 2rem auto !important;    /* Centers the entire 2-card container block on your monitor */
+    gap: 2rem !important;           /* Clear spacing between the side-by-side cards */
+  }
 }
 
-/* 1. Center the actual card track container on the homepage */
-main section .grid,
-main .grid {
+/* --- CARD STRUCTURE: Force text beneath the picture and center it --- */
+section .grid article,
+.home main .article-card {
+  width: 100% !important;           /* Fills its half of the grid column */
+  max-width: 100% !important;
   display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important; /* Centers the narrow card track on the viewport */
-  justify-content: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  flex-direction: column !important; /* Stacks portrait image on top, text details on bottom */
+  align-items: center !important;    /* Centers image horizontally */
+  text-align: center !important;     /* Centers all title and date text strings */
+  overflow: hidden !important;
+  border-radius: 0.75rem !important;
 }
 
-/* 3. Center internal structural text headers and date rows */
+/* --- TEXT FORMATTING: Center headers and dates inside the box --- */
 section .grid article header,
 section .grid article h3,
-section .grid article .text-sm,
-section .grid article div {
+section .grid article .text-sm {
   text-align: center !important;
-  align-items: center !important;
   justify-content: center !important;
   width: 100% !important;
 }
-

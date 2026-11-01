@@ -116,3 +116,18 @@ section .grid article h3 {
   line-height: 1.25 !important;
   margin-bottom: 0.5rem !important;
 }
+
+/* 1. Target ONLY the explicit "Recent" header element, leaving card titles completely alone */
+main section h2.text-2xl.font-bold {
+  display: none !important;
+}
+
+/* Ensure the layout lets the actual card post title links render fully */
+section article h3,
+.home main article h3,
+section article h3 a,
+.home main article h3 a {
+  display: block !important;
+  visibility: visible !important;
+}
+

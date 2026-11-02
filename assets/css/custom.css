@@ -86,6 +86,7 @@ section .grid article .flex-none {
 /* --- CARD STRUCTURE: Force text beneath the picture and center it --- */
 section .grid article,
 .home main .article-card {
+  padding-top: 2.5rem !important;          /* Removes the default top padding */
   width: 100% !important;           /* Fills its half of the grid column */
   max-width: 100% !important;
   display: flex !important;
@@ -104,3 +105,4 @@ section .grid article .text-sm {
   justify-content: center !important;
   width: 100% !important;
 }
+

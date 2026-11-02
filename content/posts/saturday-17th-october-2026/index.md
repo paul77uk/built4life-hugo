@@ -19,7 +19,7 @@ draft: false
 
 ## 📺 50kg Sandbag Clean & Press x 5
 
-{{< youtubeLite id="bBNG5_W246E" >}}
+{{< youtubeLite id="bBNG5_W246E" params="controls=1" >}}
 
 ---
 
@@ -37,7 +37,7 @@ draft: false
 
 ## 📺 88kg Sandbag-to-Chest x 2
 
-{{< youtubeLite id="s7fUX-LkeYI" >}}
+{{< youtubeLite id="s7fUX-LkeYI" params="controls=1" >}}
 
 ---
 

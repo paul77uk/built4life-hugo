@@ -23,7 +23,7 @@ draft: false
 
 ## 📺 70kg Sandbag Bearhug Box Squat x 6
 
-{{< youtubeLite id="EZDS-INa1Lw" >}}
+{{< youtubeLite id="EZDS-INa1Lw" params="controls=1" >}}
 
 ---
 
@@ -53,4 +53,4 @@ draft: false
 
 ## 📺 50kg Sandbag to Shoulder x 8
 
-{{< youtubeLite id="u9YuGsi4ZUs" >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}}

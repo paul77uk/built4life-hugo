@@ -1,4 +1,4 @@
----
+no---
 title: Friday 16th October 2026
 date: 2026-10-16
 draft: false
@@ -23,7 +23,7 @@ draft: false
 
 ## 📺 70kg Sandbag Bearhug Box Squat x 6
 
-{{< youtubeLite id="EZDS-INa1Lw" params="controls=1" playsinline=0 >}}
+{{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}}
 
 ---
 

@@ -19,7 +19,7 @@ draft: false
 
 ## 📺 50kg Sandbag Clean & Press x 5
 
-{{< youtubeLite id="bBNG5_W246E" params="controls=1" >}}
+{{< youtubeLite id="bBNG5_W246E" params="controls=1&playsinline=1" >}}
 
 ---
 

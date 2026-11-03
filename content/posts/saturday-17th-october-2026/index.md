@@ -26,7 +26,7 @@ draft: false
 ## 📊 2. Sandbag-to-Chest
 
 <div class="pr">
-  🏅PR: 80kg x 2
+  🏅PR: 88kg x 2
 </div>
 
 `[WU]` 50kg x 2  

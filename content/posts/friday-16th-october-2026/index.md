@@ -1,4 +1,4 @@
-no---
+---
 title: Friday 16th October 2026
 date: 2026-10-16
 draft: false

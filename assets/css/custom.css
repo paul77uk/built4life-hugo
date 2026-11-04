@@ -53,21 +53,13 @@ a[href='/'] {
 }
 
 /* 3. Force all images to be 100% width and height */
-section .grid article,
-section .grid article img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important; /* Shows 100% of the image without any cropping */
-}
 
 /* 4. Increase image height to perfectly balance portrait dimensions */
 section .grid article .w-full,
 section .grid article .thumbnail,
 section .grid article .flex-none {
   width: 100% !important;
-  height: 420px !important; /* 👈 Taller height handles portrait photos beautifully */
-  display: block !important;
-  visibility: visible !important;
+  height: 620px !important; /* 👈 Taller height handles portrait photos beautifully */
 }
 
 /* --- CLEAN SLATE: Reset and Force a 2-Column Grid Layout --- */
@@ -75,24 +67,26 @@ section .grid article .flex-none {
   .home main .grid,
   section .grid {
     display: grid !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important; /* Forces 2 columns side-by-side */
+    grid-template-columns: repeat(
+      2,
+      minmax(0, 1fr)
+    ) !important; /* Forces 2 columns side-by-side */
     width: 100% !important;
-    max-width: 840px !important;    /* Controls how wide the total 2-card area stretches */
-    margin: 2rem auto !important;    /* Centers the entire 2-card container block on your monitor */
-    gap: 2rem !important;           /* Clear spacing between the side-by-side cards */
+    max-width: 78% !important; /* Controls how wide the total 2-card area stretches */
+    margin: 2rem auto !important; /* Centers the entire 2-card container block on your monitor */
+    gap: 2rem !important; /* Clear spacing between the side-by-side cards */
   }
 }
 
 /* --- CARD STRUCTURE: Force text beneath the picture and center it --- */
 section .grid article,
 .home main .article-card {
-  padding-top: 2.5rem !important;          /* Removes the default top padding */
-  width: 100% !important;           /* Fills its half of the grid column */
+  width: 100% !important; /* Fills its half of the grid column */
   max-width: 100% !important;
   display: flex !important;
   flex-direction: column !important; /* Stacks portrait image on top, text details on bottom */
-  align-items: center !important;    /* Centers image horizontally */
-  text-align: center !important;     /* Centers all title and date text strings */
+  align-items: center !important; /* Centers image horizontally */
+  text-align: center !important; /* Centers all title and date text strings */
   overflow: hidden !important;
   border-radius: 0.75rem !important;
 }
@@ -104,4 +98,10 @@ section .grid article .text-sm {
   text-align: center !important;
   justify-content: center !important;
   width: 100% !important;
+}
+
+/* --- Reduce padding at bootm of card to make it more compact --- */
+section .grid article .p-4 {
+  padding-bottom: 0rem !important; /* Reduces the bottom padding of the card */
+  padding-top: 1rem !important; /* Reduces the top padding of the card */
 }

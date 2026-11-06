@@ -10,21 +10,21 @@
     <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Friday 11th November 2026</title>
-      <link>http://localhost:1313/posts/friday-6th-november-2026/</link>
+      <title>🏆 Personal Records</title>
+      <link>http://localhost:1313/prs/</link>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/friday-6th-november-2026/</guid>
+      <guid>http://localhost:1313/prs/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Personal Records</title>
-      <link>http://localhost:1313/prs/</link>
+      <title>Friday 11th November 2026</title>
+      <link>http://localhost:1313/posts/friday-6th-november-2026/</link>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/prs/</guid>
+      <guid>http://localhost:1313/posts/friday-6th-november-2026/</guid>
       <description></description>
       
     </item>

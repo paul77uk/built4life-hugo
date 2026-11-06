@@ -1,44 +1,60 @@
 ---
-title: "Personal Records"
+title: '🏆 Personal Records'
 date: 2026-11-06
----
+layout: "simple"
+--- 
 
-# 🏆 Personal Records
+<div style="max-width: 750px;">
 
-Welcome to my PR tracker. Every entry below represents an all-time best effort at that specific weight threshold. High-quality video proof captured with the DJI Osmo Pocket 3 is built right into the log!
+## Sandbag Bearhug Squats
 
----
+{{< accordion mode="open" separated=true >}}
+{{< accordionItem title="70kg × 6 reps">}}
+{{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
 
-## 🐻 Sandbag Bearhug Squats
+{{< accordionItem title="50kg × 10 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-### **70kg** × 6 reps
-{{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}}
+{{< accordionItem title="45kg × 12 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< /accordion >}}
 
-### **50kg** × 10 reps 
-{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}}
+## Sandbag-to-Shoulder
 
-* **45kg** × 12 reps ⏳ *Clip Pending*
+{{< accordion mode="open" separated=true >}}
+{{< accordionItem title="70kg × 2 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
----
+{{< accordionItem title="65kg × 4 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-## 🪵 Sandbag to Shoulder
-* **70kg** × 2 reps ⏳ *Clip Pending*
-* **65kg** × 4 reps ⏳ *Clip Pending*
-* **55kg** × 6 reps ⏳ *Clip Pending*
-* **50kg** × 8 reps ⏳ *Clip Pending*
+{{< accordionItem title="55kg × 6 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
----
+{{< accordionItem title="50kg × 8 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< /accordion >}}
 
-## 🪵 Sandbag to Chest
-* **88kg** × 3 reps ⏳ *Clip Pending*
-* **70kg** × 4 reps ⏳ *Clip Pending*
+## Sandbag-to-Chest
 
----
+{{< accordion mode="open" separated=true >}}
+{{< accordionItem title="88kg × 3 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-## 🏋️ Overhead & Pressing
-* **45kg** Sandbag Clean & Press × 6 reps ⏳ *Clip Pending*
-* **45kg** Sandbag Overhead Press × 6 reps ⏳ *Clip Pending*
+{{< accordionItem title="70kg × 4 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< /accordion >}}
 
----
+## Sandbag Clean & Press
 
-*Last Updated: {{ .Date.Format "Monday, Jan 2, 2006" }}*
+{{< accordion mode="open" separated=true >}}
+{{< accordionItem title="50kg × 5 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< /accordion >}}
+
+## Sandbag Overhead Press
+
+{{< accordion mode="open" separated=true >}}
+{{< accordionItem title="45kg × 6 reps" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< /accordion >}}

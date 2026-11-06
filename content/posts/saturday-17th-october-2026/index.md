@@ -10,8 +10,8 @@ draft: false
   🏅 PR: 50kg x 5  
 </div>
 
- `[SET 1]` 50kg x 4  
- `[SET 2]` 50kg x 5  
+`[SET 1]` 50kg x 4  
+ `[SET 2]` 50kg x 5
 
 <div class="note">
     Hurt something in upper back, so had to stop at 2 sets, felt like going heavier, as bag seemed light, may go for triples or 4 reps all sets before up weight, so may add maybe 2kg for next week, when back gets better.

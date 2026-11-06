@@ -8,7 +8,7 @@
   background-color: #111827;
   padding: 0.75rem 1rem;
   margin: 1rem 0;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
   max-width: 100%;
   font-style: italic;
   color: #9ca3af;
@@ -58,8 +58,9 @@ a[href='/'] {
 section .grid article .w-full,
 section .grid article .thumbnail,
 section .grid article .flex-none {
+  object-fit: contain  !important;
   width: 100% !important;
-  height: 620px !important; /* 👈 Taller height handles portrait photos beautifully */
+ 
 }
 
 /* --- CLEAN SLATE: Reset and Force a 2-Column Grid Layout --- */
@@ -71,10 +72,7 @@ section .grid article .flex-none {
       2,
       minmax(0, 1fr)
     ) !important; /* Forces 2 columns side-by-side */
-    width: 100% !important;
-    max-width: 78% !important; /* Controls how wide the total 2-card area stretches */
-    margin: 2rem auto !important; /* Centers the entire 2-card container block on your monitor */
-    gap: 2rem !important; /* Clear spacing between the side-by-side cards */
+   /* Controls how wide the total 2-card area stretches */
   }
 }
 
@@ -91,17 +89,13 @@ section .grid article,
   border-radius: 0.75rem !important;
 }
 
-/* --- TEXT FORMATTING: Center headers and dates inside the box --- */
-section .grid article header,
-section .grid article h3,
-section .grid article .text-sm {
-  text-align: center !important;
-  justify-content: center !important;
-  width: 100% !important;
-}
+
 
 /* --- Reduce padding at bootm of card to make it more compact --- */
 section .grid article .p-4 {
   padding-bottom: 0rem !important; /* Reduces the bottom padding of the card */
   padding-top: 1rem !important; /* Reduces the top padding of the card */
 }
+
+
+

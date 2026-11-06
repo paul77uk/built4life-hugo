@@ -1,33 +1,44 @@
 ---
-title: Personal Records
+title: "Personal Records"
 date: 2026-11-06
 ---
 
-## 📺 45kg Sandbag Bearhug Squat x 12
+# 🏆 Personal Records
 
-## 📺 50kg Sandbag Bearhug Squat x 10
+Welcome to my PR tracker. Every entry below represents an all-time best effort at that specific weight threshold. High-quality video proof captured with the DJI Osmo Pocket 3 is built right into the log!
 
-## 📺 70kg Sandbag Bearhug Squat x 6
+---
 
+## 🐻 Sandbag Bearhug Squats
+
+### **70kg** × 6 reps
 {{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}}
 
-## 📺 50kg Sandbag to Shoulder x 8
-
+### **50kg** × 10 reps 
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}}
 
-## 📺 50kg Sandbag to Shoulder x 8
+* **45kg** × 12 reps ⏳ *Clip Pending*
 
-## 📺 55kg Sandbag to Shoulder x 6
+---
 
-## 📺 65kg Sandbag to Shoulder x 4
+## 🪵 Sandbag to Shoulder
+* **70kg** × 2 reps ⏳ *Clip Pending*
+* **65kg** × 4 reps ⏳ *Clip Pending*
+* **55kg** × 6 reps ⏳ *Clip Pending*
+* **50kg** × 8 reps ⏳ *Clip Pending*
 
-## 📺 70kg Sandbag to Shoulder x 2
+---
 
-## 📺 70kg Sandbag to Chest x 4
+## 🪵 Sandbag to Chest
+* **88kg** × 3 reps ⏳ *Clip Pending*
+* **70kg** × 4 reps ⏳ *Clip Pending*
 
-## 📺 88kg Sandbag to Chest x 3
+---
 
-## 📺 45kg Sandbag Clean & Press x 6
+## 🏋️ Overhead & Pressing
+* **45kg** Sandbag Clean & Press × 6 reps ⏳ *Clip Pending*
+* **45kg** Sandbag Overhead Press × 6 reps ⏳ *Clip Pending*
 
-## 📺 45kg Sandbag Overhead Press x 6
+---
 
+*Last Updated: {{ .Date.Format "Monday, Jan 2, 2006" }}*

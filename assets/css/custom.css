@@ -42,6 +42,8 @@ a[href='/'] {
     -0.5px 0px 0px currentColor;
 }
 
+/* Make nav text to orginally intended size, but keep the title on left */
+
 /* 2. Color the "4" in the middle */
 .logo-accent {
   color: #ef4444 !important; /* Athletic red */
@@ -52,50 +54,19 @@ a[href='/'] {
   padding: 0 1px; /* Subtle spacing adjustment around the number */
 }
 
-/* 3. Force all images to be 100% width and height */
-
-/* 4. Increase image height to perfectly balance portrait dimensions */
-section .grid article .w-full,
-section .grid article .thumbnail,
-section .grid article .flex-none {
-  object-fit: contain  !important;
-  width: 100% !important;
- 
+/* Forces Blowfish homepage thumbnail card grids to render as tall portrait blocks */
+.thumbnail_card {
+    aspect-ratio: 4 / 5 !important; /* Forces a classic vertical portrait shape */
+    background-size: cover !important;
+    background-position: center !important;
+    height: auto !important;
+    padding-bottom: 0 !important; /* Removes default wide landscape stretching */
 }
 
-/* --- CLEAN SLATE: Reset and Force a 2-Column Grid Layout --- */
-@media (min-width: 768px) {
-  .home main .grid,
-  section .grid {
-    display: grid !important;
-    grid-template-columns: repeat(
-      2,
-      minmax(0, 1fr)
-    ) !important; /* Forces 2 columns side-by-side */
-   /* Controls how wide the total 2-card area stretches */
-  }
+/* Adjusts the container layout slightly so text elements sit perfectly under portrait frames */
+.article-link-card {
+    display: flex;
+    flex-direction: column;
 }
-
-/* --- CARD STRUCTURE: Force text beneath the picture and center it --- */
-section .grid article,
-.home main .article-card {
-  width: 100% !important; /* Fills its half of the grid column */
-  max-width: 100% !important;
-  display: flex !important;
-  flex-direction: column !important; /* Stacks portrait image on top, text details on bottom */
-  align-items: center !important; /* Centers image horizontally */
-  text-align: center !important; /* Centers all title and date text strings */
-  overflow: hidden !important;
-  border-radius: 0.75rem !important;
-}
-
-
-
-/* --- Reduce padding at bootm of card to make it more compact --- */
-section .grid article .p-4 {
-  padding-bottom: 0rem !important; /* Reduces the bottom padding of the card */
-  padding-top: 1rem !important; /* Reduces the top padding of the card */
-}
-
 
 

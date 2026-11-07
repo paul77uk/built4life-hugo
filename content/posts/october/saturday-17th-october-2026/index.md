@@ -6,12 +6,10 @@ draft: false
 
 ## 📊 1. Sandbag Clean & Press
 
-<div class="pr">
-  🏅 PR: 50kg x 5  
-</div>
+[🏅 PR: 50kg x 5 ]({{< ref "prs/#sandbag-bearhug-squats" >}})
 
 `[SET 1]` 50kg x 4  
- `[SET 2]` 50kg x 5
+`[SET 2]` 50kg x 5
 
 <div class="note">
     Hurt something in upper back, so had to stop at 2 sets, felt like going heavier, as bag seemed light, may go for triples or 4 reps all sets before up weight, so may add maybe 2kg for next week, when back gets better.
@@ -25,9 +23,7 @@ draft: false
 
 ## 📊 2. Sandbag-to-Chest
 
-<div class="pr">
-  🏅PR: 88kg x 2
-</div>
+[🏅 PR: 70kg x 2 ]({{< ref "prs/#sandbag-to-chest" >}})
 
 `[WU]` 50kg x 2  
 `[WU]` 70kg x 2  
@@ -43,10 +39,9 @@ draft: false
 
 ## 📊 3. Sandbag Bearhug Carries
 
-<div class="pr">
-  🏅PR: 50kg x 48M  
-  🏅PR: 70kg x 18M 
-</div>
+[🏅 PR: 50kg x 48M ]({{< ref "prs/#sandbag-bearhug-carries" >}})  
+[🏅 PR: 70kg x 18M ]({{< ref "prs/#sandbag-bearhug-carries" >}})
+
 
 `[SET 1]` 50kg x 48M in 1 min 37 secs  
 `[SET 2]` 70kg x 18M in 38 secs

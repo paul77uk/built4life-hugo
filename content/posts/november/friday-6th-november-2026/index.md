@@ -2,7 +2,11 @@
 title: Friday 11th November 2026
 date: 2026-11-06
 draft: false
+layout: simple
 ---
+
+<div style="max-width: 720px;">
+
 ## 📊 1. Sandbag Clean & Press
 
 <div class="pr">

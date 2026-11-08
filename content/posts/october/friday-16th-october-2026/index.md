@@ -2,7 +2,11 @@
 title: Friday 16th October 2026
 date: 2026-10-16
 draft: false
+layout: simple
 ---
+
+<div style="max-width: 720px;">
+
 
 ## 📊 1. Sandbag Bearhug Squats
 

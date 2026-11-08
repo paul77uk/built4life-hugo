@@ -77,7 +77,10 @@ layout: 'simple'
 
 {{< accordion mode="open" separated=true >}}
 
-{{< accordionItem title="75kg × 18M" open=false >}}
+{{< accordionItem title="75kg × 12M" open=false >}}
+{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+
+{{< accordionItem title="70kg × 18M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="55kg × 22M" open=false >}}
@@ -85,6 +88,5 @@ layout: 'simple'
 
 {{< accordionItem title="50kg × 48M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
-
 
 {{< /accordion >}}

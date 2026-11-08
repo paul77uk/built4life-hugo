@@ -42,7 +42,7 @@ layout: simple
 ## 📊 3. Sandbag Bearhug Carries
 
 [🏅 PR: 55kg x 22M]({{< ref "prs/#sandbag-bearhug-carries" >}})  
-[🏅 PR: 75kg x 18M ]({{< ref "prs/#sandbag-bearhug-carries" >}})
+[🏅 PR: 75kg x 12M ]({{< ref "prs/#sandbag-bearhug-carries" >}})
 
 `[SET 1]` 55kg x 22M  
 `[SET 2]` 75kg x 12M

@@ -22,11 +22,6 @@
   color: #d9e2df; /* Change the color to match your theme */
 }
 
-/* Reduce the default aggressive top-margin on your very first H2 header */
-.max-w-prose h2:first-of-type {
-  margin-top: -1.5rem !important; /* Pulls the first section header up closer */
-}
-
 /* 1. Make the overall brand logo header massive and ultra-thick */
 .main-menu.navbar,
 header nav,
@@ -42,8 +37,6 @@ a[href='/'] {
     -0.5px 0px 0px currentColor;
 }
 
-/* Make nav text to orginally intended size, but keep the title on left */
-
 /* 2. Color the "4" in the middle */
 .logo-accent {
   color: #ef4444 !important; /* Athletic red */
@@ -56,17 +49,5 @@ a[href='/'] {
 
 /* Forces Blowfish homepage thumbnail card grids to render as tall portrait blocks */
 .thumbnail_card {
-    aspect-ratio: 4 / 5 !important; /* Forces a classic vertical portrait shape */
-    background-size: cover !important;
-    background-position: center !important;
-    height: auto !important;
-    padding-bottom: 0 !important; /* Removes default wide landscape stretching */
+  aspect-ratio: 1 / 1 !important; /* Forces a classic vertical portrait shape */
 }
-
-/* Adjusts the container layout slightly so text elements sit perfectly under portrait frames */
-.article-link-card {
-    display: flex;
-    flex-direction: column;
-}
-
-

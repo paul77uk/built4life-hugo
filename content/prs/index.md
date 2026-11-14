@@ -49,11 +49,8 @@ layout: 'simple'
 {{< accordionItem title="88kg × 3 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-{{< accordionItem title="75kg × 3 reps" open=false >}}
-{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
-
-{{< accordionItem title="70kg × 4 reps" open=false >}}
-{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< accordionItem title="75kg × 4 reps" open=false >}}
+{{< youtubeLite id="oH8A1k6Y_60" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="55kg × 5 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
@@ -62,8 +59,22 @@ layout: 'simple'
 ## Sandbag Clean & Press
 
 {{< accordion mode="open" separated=true >}}
+
+{{< accordionItem title="55kg × 2 reps" open=false >}}
+{{< youtubeLite id="TLAorqylTPI" params="controls=1" >}} {{< /accordionItem >}}
+
 {{< accordionItem title="50kg × 5 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+
+{{< /accordion >}}
+
+## Sandbag Floor Press
+
+{{< accordion mode="open" separated=true >}}
+
+{{< accordionItem title="55kg × 10 reps" open=false >}}
+{{< youtubeLite id="93cAGEgbWBs" params="controls=1&playsinline=0" >}}{{< /accordionItem >}}
+
 {{< /accordion >}}
 
 ## Sandbag Overhead Press

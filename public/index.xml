@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sunday 15th November 2026</title>
+      <link>http://localhost:1313/posts/november/sunday-15th-november-2026/</link>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/november/sunday-15th-november-2026/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/november/sunday-15th-november-2026/featured.png" />
+    </item>
     
     <item>
       <title>Saturday 14th November 2026</title>
@@ -26,7 +36,7 @@
       
       <guid>http://localhost:1313/posts/november/saturday-7th-november-2026/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/november/saturday-7th-november-2026/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/november/saturday-7th-november-2026/featured.png" />
     </item>
     
     <item>
@@ -40,13 +50,13 @@
     </item>
     
     <item>
-      <title>Friday 11th November 2026</title>
+      <title>Friday 6th November 2026</title>
       <link>http://localhost:1313/posts/november/friday-6th-november-2026/</link>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/november/friday-6th-november-2026/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/november/friday-6th-november-2026/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/november/friday-6th-november-2026/featured.png" />
     </item>
     
     <item>
@@ -56,7 +66,7 @@
       
       <guid>http://localhost:1313/posts/october/saturday-17th-october-2026/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/october/saturday-17th-october-2026/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/october/saturday-17th-october-2026/featured.png" />
     </item>
     
     <item>
@@ -66,7 +76,7 @@
       
       <guid>http://localhost:1313/posts/october/friday-16th-october-2026/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/october/friday-16th-october-2026/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/october/friday-16th-october-2026/featured.png" />
     </item>
     
   </channel>

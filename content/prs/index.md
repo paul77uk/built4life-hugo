@@ -11,13 +11,13 @@ layout: 'simple'
 
 {{< accordion mode="open" separated=true >}}
 
-{{< accordionItem title="75kg × 3 reps">}}
+{{< accordionItem title="75kg × 4 reps">}}
 {{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
 
 {{< accordionItem title="70kg × 6 reps">}}
 {{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
 
-{{< accordionItem title="55kg × 7 reps">}}
+{{< accordionItem title="55kg × 8 reps">}}
 {{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
 
 {{< accordionItem title="50kg × 10 reps" open=false >}}
@@ -88,13 +88,13 @@ layout: 'simple'
 
 {{< accordion mode="open" separated=true >}}
 
-{{< accordionItem title="75kg × 12M" open=false >}}
+{{< accordionItem title="75kg × 16M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="70kg × 18M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-{{< accordionItem title="55kg × 22M" open=false >}}
+{{< accordionItem title="55kg × 30M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="50kg × 48M" open=false >}}

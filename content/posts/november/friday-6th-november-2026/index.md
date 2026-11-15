@@ -1,5 +1,5 @@
 ---
-title: Friday 11th November 2026
+title: Friday 6th November 2026
 date: 2026-11-06
 draft: false
 layout: simple

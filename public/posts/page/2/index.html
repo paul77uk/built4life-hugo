@@ -102,8 +102,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.113a08cb6ac4c3bd95f33a513a7c8ccdb2c372ef838ba4f6e8ce51837a0e59299f01e37b3a46b96090f860384dfc34c21d3c1a45e08c4f1646e9aa71c463f435.css"
-    integrity="sha512-EToIy2rEw72V8zpROnyMzbLDcu&#43;Di6T26M5Rg3oOWSmfAeN7Oka5YJD4YDhN/DTCHTwaReCMTxZG6apxxGP0NQ==">
+    href="/css/main.bundle.min.d8a9fcfa09f6d691fd3852ecdeac310c293bc1d8147bac74181c0a26f713dffc99b99f0a1f14e9d833cf53c06ccb540bc8403225e644e34bfb436b9729057c16.css"
+    integrity="sha512-2Kn8&#43;gn21pH9OFLs3qwxDCk7wdgUe6x0GBwKJvcT3/yZuZ8KHxTp2DPPU8Bsy1QLyEAyJeZE40v7Q2uXKQV8Fg==">
 
   
   
@@ -229,10 +229,10 @@
       "name": ""
     },
     "copyrightYear": "2026",
-    "dateCreated": "2026-11-06T00:00:00\u002b00:00",
-    "datePublished": "2026-11-06T00:00:00\u002b00:00",
+    "dateCreated": "2026-11-15T00:00:00\u002b00:00",
+    "datePublished": "2026-11-15T00:00:00\u002b00:00",
     
-    "dateModified": "2026-11-06T00:00:00\u002b00:00",
+    "dateModified": "2026-11-15T00:00:00\u002b00:00",
     
     
     
@@ -286,7 +286,13 @@
     <header>
       
       
-        <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+        <div class="min-h-32"></div>
+<div class="fixed inset-x-0 top-3 z-100 px-3 sm:top-5 sm:px-6">
+  <div
+    class="relative mx-auto max-w-7xl rounded-2xl border border-neutral-200/80 shadow-lg shadow-neutral-900/5 dark:border-neutral-700/80 [&_img.logo]:max-h-10 [&_img.logo]:max-w-10">
+    <div class="absolute inset-0 -z-10 rounded-2xl bg-neutral/60 backdrop-blur-xl dark:bg-neutral-800/60"></div>
+    <div class="px-3">
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
   
     <a href="/" class="text-base font-medium truncate min-w-0 shrink">
@@ -296,6 +302,26 @@
   <div class="flex items-center ms-auto">
     <div class="hidden md:flex">
       <nav aria-label="Main menu" class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/prs/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="PR&#39;s"
+      title="">
+      
+      
+        <span class="text-sm font-medium break-normal">
+          PR&rsquo;s
+        </span>
+      
+    </a>
+  
+
+    
   
 
   
@@ -378,6 +404,75 @@
   
 
   
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label
+      for="mobile-menu-toggle"
+      tabindex="0"
+      role="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu-dialog"
+      aria-label="Main menu"
+      class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      id="mobile-menu-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Main menu"
+      style="scrollbar-gutter: stable;"
+      class="z-50 invisible overflow-y-auto opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100
+      
+        fixed inset-0 px-6 py-20 bg-neutral-50/97 dark:bg-neutral-900/99
+      
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        tabindex="0"
+        role="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu-dialog"
+        class="fixed end-8 top-5 z-50 h-12 w-12 rounded-full flex items-center justify-center cursor-pointer select-none bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="sr-only">Close menu</span>
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav
+        aria-label="Mobile menu"
+        class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <div class="flex items-center gap-4">
+        <a
+          href="/prs/"
+          aria-label="PR&#39;s"
+          
+          class="flex grow items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+          
+          <span title="" class="text-2xl font-bold tracking-tight">
+            PR&rsquo;s
+          </span>
+        </a>
+        
+      </div>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
 </div>
 
 
@@ -393,6 +488,10 @@
 
 
 
+
+    </div>
+  </div>
+</div>
 
       
     </header>
@@ -463,27 +562,16 @@
     
 
     
-      <section class="space-y-10 w-full">
+      
         
           
-            
-              <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-                2026
-              </h2>
-            
-            
+            <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              2026
+            </h2>
+            <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
               
+                
 
-
-
-
-
-
-
-
-  
-  
-  
 
 
 
@@ -530,12 +618,15 @@
 
 
 
-<article class="article-link--simple group flex flex-col md:flex-row relative">
+<article
+  class="article-link--card group relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300/80 bg-white/85 dark:border-neutral-600/80 dark:bg-neutral-900/80">
   
-    <div class="flex-none relative overflow-hidden  thumbnail-shadow md:mr-7 thumbnail">
+    <div
+      class="flex-none relative overflow-hidden thumbnail_card"
+      style="--thumbnail-aspect-ratio: 1.5">
       <img
-        src="/posts/saturday-17th-october-2026/featured_hu_b2b750831fd2d7d2.png"
-        alt="Saturday 17th October 2026"
+        src="/posts/october/friday-16th-october-2026/featured_hu_5f0763ccc5dfc57.png"
+        alt="Friday 16th October 2026"
         loading="lazy"
         decoding="async"
         fetchpriority="low"
@@ -543,20 +634,19 @@
          />
     </div>
   
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
+  
+  <div class="p-4">
+    <header>
       <a
         
-          href="/posts/saturday-17th-october-2026/"
+          href="/posts/october/friday-16th-october-2026/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          Saturday 17th October 2026
+          Friday 16th October 2026
           
         </h2>
       </a>
-      
-      
     </header>
     <div class="text-sm text-neutral-500 dark:text-neutral-400">
       
@@ -578,17 +668,11 @@
   
 
   
-    
-  
 
   
 
   
-    
-  
 
-  
-    
   
 
   
@@ -604,8 +688,6 @@
 
   <div class="flex flex-row flex-wrap items-center">
     
-    
-      <time datetime="2026-10-17T00:00:00&#43;00:00">17 October 2026</time><span class="px-2 text-primary-500">&middot;</span><span>144 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -624,11 +706,13 @@
   <div class="px-6 pt-4 pb-2"></div>
 </article>
 
-            
+              
+            </section>
           
         
-      </section>
-    
+
+      
+      
     
   
   
@@ -655,22 +739,7 @@
              mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
             >2</a
           >
-        </li><li>
-          <a
-            href="/posts/page/3/"
-            class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-            >3</a
-          >
         </li>
-      <li>
-        <a
-          href="/posts/page/3/"
-          class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
-          rel="next"
-          >&rarr;</a
-        >
-      </li>
-    
   </ul>
 
         

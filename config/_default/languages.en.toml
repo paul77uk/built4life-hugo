@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "BUILT<span class='logo-accent'>4</span>LIFE"
+title = "BUILT4LIFE"
 
 [params]
   displayName = "EN"

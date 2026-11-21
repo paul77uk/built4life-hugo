@@ -36,18 +36,3 @@ a[href='/'] {
     0.5px 0px 0px currentColor,
     -0.5px 0px 0px currentColor;
 }
-
-/* 2. Color the "4" in the middle */
-.logo-accent {
-  color: #ef4444 !important; /* Athletic red */
-  /* If you prefer the native Blowfish Blue instead, use: #3b82f6 */
-  /* If you prefer your gym log Green instead, use: #10b981 */
-
-  font-weight: 900 !important;
-  padding: 0 1px; /* Subtle spacing adjustment around the number */
-}
-
-/* Forces Blowfish homepage thumbnail card grids to render as tall portrait blocks */
-.thumbnail_card {
-  aspect-ratio: 1 / 1 !important; /* Forces a classic vertical portrait shape */
-}

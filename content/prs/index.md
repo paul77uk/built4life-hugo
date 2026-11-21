@@ -49,7 +49,7 @@ layout: 'simple'
 {{< accordionItem title="88kg × 3 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-{{< accordionItem title="75kg × 4 reps" open=false >}}
+{{< accordionItem title="75kg × 5 reps" open=false >}}
 {{< youtubeLite id="oH8A1k6Y_60" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="55kg × 5 reps" open=false >}}
@@ -94,7 +94,7 @@ layout: 'simple'
 {{< accordionItem title="70kg × 18M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
-{{< accordionItem title="55kg × 30M" open=false >}}
+{{< accordionItem title="55kg × 36M" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="50kg × 48M" open=false >}}

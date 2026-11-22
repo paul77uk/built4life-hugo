@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prs/index.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "_index"
             }
           }
         ]
@@ -191,6 +191,7 @@
   },
   "active": "fe4f5d9648711bbb",
   "lastOpenFiles": [
+    "prs/index.md",
     "posts/october/saturday-17th-october-2026/featured.jpg",
     "posts/october/saturday-17th-october-2026/featured2.png",
     "posts/october/friday-16th-october-2026/featured.jpg",
@@ -201,7 +202,6 @@
     "posts/november/friday-6th-november-2026/featured2.png",
     "posts/october/saturday-17th-october-2026/stone2.jpg",
     "posts/october/friday-16th-october-2026/stone1.jpg",
-    "posts/november/saturday-7th-november-2026/sandbag2.webp",
     "posts/saturday-17th-october-2026/index.md",
     "posts/october/saturday-17th-october-2026/index.md",
     "posts/october/saturday-17th-october-2026",
@@ -217,7 +217,6 @@
     "posts/november",
     "posts/saturday-17th-october-2026 copy/index.md",
     "posts/saturday-17th-october-2026 copy",
-    "prs/index.md",
     "posts/friday-16th-october-2026/index.md",
     "prs/_index.md",
     "posts/friday-6th-november-2026/index.md",

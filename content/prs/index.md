@@ -2,7 +2,6 @@
 date: 2026-11-06
 layout: 'simple'
 ---
-
 <div style="max-width: 750px;">
 
 # 🏆 Personal Records
@@ -11,14 +10,20 @@ layout: 'simple'
 
 {{< accordion mode="open" separated=true >}}
 
-{{< accordionItem title="75kg × 4 reps">}}
-{{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
+{{< accordionItem title="85kg × 3 reps">}}
+{{< youtubeLite id="K5gA1-OHRnY" params="controls=1&playsinline=0" >}}
+{{< /accordionItem >}}
+
+{{< accordionItem title="75kg × 5 reps">}}
+{{< youtubeLite id="_YzAgH53xAo" params="controls=1&playsinline=0" >}}
+{{< /accordionItem >}}
 
 {{< accordionItem title="70kg × 6 reps">}}
 {{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
 
-{{< accordionItem title="55kg × 8 reps">}}
-{{< youtubeLite id="EZDS-INa1Lw" playsinline=0 >}} {{< /accordionItem >}}
+{{< accordionItem title="55kg × 9 reps">}}
+{{< youtubeLite id="L6VV8-97SmU" params="controls=1&playsinline=0" >}}
+ {{< /accordionItem >}}
 
 {{< accordionItem title="50kg × 10 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
@@ -37,7 +42,8 @@ layout: 'simple'
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
 
 {{< accordionItem title="55kg × 6 reps" open=false >}}
-{{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
+{{< youtubeLite id="DsqQpVCH12k" params="controls=1&playsinline=0" >}}
+{{< /accordionItem >}}
 
 {{< accordionItem title="50kg × 8 reps" open=false >}}
 {{< youtubeLite id="u9YuGsi4ZUs" params="controls=1" >}} {{< /accordionItem >}}
@@ -72,7 +78,7 @@ layout: 'simple'
 
 {{< accordion mode="open" separated=true >}}
 
-{{< accordionItem title="55kg × 10 reps" open=false >}}
+{{< accordionItem title="55kg × 11 reps" open=false >}}
 {{< youtubeLite id="93cAGEgbWBs" params="controls=1&playsinline=0" >}}{{< /accordionItem >}}
 
 {{< /accordion >}}

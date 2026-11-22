@@ -36,3 +36,16 @@ a[href='/'] {
     0.5px 0px 0px currentColor,
     -0.5px 0px 0px currentColor;
 }
+
+/* Forces Blowfish homepage thumbnail card grids to render at 16:9 aspect ratio */
+.thumbnail_card {
+  aspect-ratio: 16 / 9 !important;
+  object-fit: cover !important;
+  width: 100% !important;
+}
+
+/* Targets nested grid/flex containers inside #main-content */
+#main-content * {
+  grid-template-columns: 1fr !important;
+  column-count: 1 !important;
+}
